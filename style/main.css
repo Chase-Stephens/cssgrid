@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+.wrapper {
+  height: 500px;
+  width: 100%;
+  background-color: bisque;
+  display: grid;
+  grid-template-columns: 30px 50px 70px auto 40px;
+  grid-template-rows: 40% 90px auto;
+}
+.nav {
+  background-color: blue;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.text {
+  background-color: green;
+}
+.footer {
+  background-color: red;
+}
+/*# sourceMappingURL=main.css.map */

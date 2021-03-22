@@ -1,0 +1,104 @@
+.wrapper1 {
+  height: 880px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 180px auto 280px;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+.firstobject1 {
+  background-color: lightblue;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.secondobject1 {
+  background-color: mediumpurple;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.thirdobject1 {
+  background-color: darkgreen;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+.fourthobject1 {
+  background-color: royalblue;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+.wrapper2 {
+  height: 1200px;
+  width: 100%;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto 175px auto auto 175px auto;
+  grid-template-rows: 300px 300px auto auto 200px;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+.firstobject2 {
+  background-color: darkorange;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.secondobject2 {
+  background-color: forestgreen;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.thirdobject2 {
+  background-color: red;
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.fourthobject2 {
+  background-color: yellow;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+.fifthobject2 {
+  background-color: lawngreen;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.sixthobject2 {
+  background-color: yellowgreen;
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.seventhobject2 {
+  background-color: deepskyblue;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+.eighthobject2 {
+  background-color: dodgerblue;
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+/*# sourceMappingURL=style.css.map */
